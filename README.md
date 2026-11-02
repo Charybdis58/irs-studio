@@ -6,14 +6,29 @@ tariften tek komutla üretilir.
 
 - Geçerli sistem ve kararlar: [`marka/MARKA.md`](marka/MARKA.md)
 - Tarif biçimleri ve komutlar: [`icerik/OKU-BENI.md`](icerik/OKU-BENI.md)
-- Claude ile kullanım: `irs-studio` skill'i (`~/.claude/skills/irs-studio/`). "Bir duyuru postu yap",
-  "bunu Reels'e çevir", "jüri sunumu hazırla" demek yeterli.
+- Kurallar (insan ve yapay zekâ için): [`AGENTS.md`](AGENTS.md)
+
+## Ekip için
+
+**Bu depo IRS tasarımının tek kaynağıdır.** IRS için yapılan her görsel iş buradaki araçlar ve
+kurallarla yapılır; kural, şablon ya da araç değişikliği yalnızca bu depoda, pull request ile yapılır.
+
+1. **Yapay zekâ asistanına talimatı ekle** (bir kez): [`AI-TALIMATI.md`](AI-TALIMATI.md). ChatGPT,
+   Gemini, Claude ya da başka bir araç; IRS işi açıldığında kuralları bu deponun en güncel halinden
+   okur.
+2. **Claude Code kullanıyorsan** eklentiyi kur:
+   `/plugin marketplace add Charybdis58/irs-studio`, sonra `/plugin install irs-studio@irs`. "Tanışma
+   carousel'i hazırla", "bunu Reels'e çevir", "jüri sunumu hazırla" demek yeterli; eklenti depoyu
+   kendisi indirir ve günceller.
+3. **Elle çalışacaksan** aşağıdaki kurulumu yap; her işten önce `git pull`.
 
 ## Kurulum
 
 Node 22+ ve FFmpeg gerekir (`winget install Gyan.FFmpeg`).
 
 ```bash
+git clone https://github.com/Charybdis58/irs-studio.git
+cd irs-studio
 npm install
 ```
 

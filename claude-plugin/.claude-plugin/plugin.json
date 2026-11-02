@@ -1,0 +1,11 @@
+{
+  "name": "irs-studio",
+  "version": "1.0.0",
+  "description": "IZTECH Robotic Systems görsel üretim ve tasarım kuralları (IRS-GDL-001 Rev C). Her işte github.com/Charybdis58/irs-studio deposunun en güncel halini kullanır.",
+  "author": {
+    "name": "IZTECH Robotic Systems",
+    "email": "iztechroboticsystems@gmail.com"
+  },
+  "homepage": "https://github.com/Charybdis58/irs-studio",
+  "repository": "https://github.com/Charybdis58/irs-studio"
+}
