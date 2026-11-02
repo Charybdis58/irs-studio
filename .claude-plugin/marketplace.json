@@ -1,0 +1,14 @@
+{
+  "name": "irs",
+  "owner": {
+    "name": "IZTECH Robotic Systems",
+    "email": "iztechroboticsystems@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "irs-studio",
+      "source": "./claude-plugin",
+      "description": "IRS görsel üretim ve tasarım kuralları (IRS-GDL-001 Rev C): post, carousel, video, sunum."
+    }
+  ]
+}
