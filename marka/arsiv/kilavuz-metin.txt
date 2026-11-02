@@ -1,0 +1,1036 @@
+=== 1
+TASARIM KILAVUZU v1.0 / SHEET 01
+I Z T E C H R O B O T I C S Y S T E M S / I N S T A G R A M
+TASARIM
+KILAVUZU
+v 1 . 0 / T E K T E M E L , Ç O K M O D
+KAPSAM: FORMATLAR, İSKELET, IZGARA, TİPOGRAFİ, RENK,
+MODLAR, KODLAR, LOGO, FOTOĞRAF, ŞABLONLAR
+KAPAK
+01 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 2
+TASARIM KILAVUZU v1.0 / SHEET 02
+0 2 / T E M E L F İ K İ R
+TEK TEMEL,
+ÇOK MOD.
+Hesaptaki her post aynı iskeleti taşır: aynı çerçeve, aynı başlık satırı, aynı antet şeridi,
+aynı palet ve aynı fontlar. İskeletin içi ise içeriğe göre beş moddan biriyle doldurulur.
+Böylece postlar birbirinden farklı görünebilir ama hepsi aynı aileye aittir.
+NEDEN PAFTA
+Rakip takımların neredeyse hepsi koyu zemin, neon ışık ve parlama
+efekti kullanıyor. Açık zemin üzerinde teknik resim paftası bu
+yarışmada özgün ve akışta ilk bakışta tanınıyor.
+NEDEN BİZE UYGUN
+Sıfırdan tasarlayıp üreten bir takımız. Teknik resim, bu hikayeyi
+doğrudan anlatıyor.
+NEDEN MODLAR
+Duyuru, takım, sponsor, maç ve fotoğraf postları farklı şeyler ister.
+Modlar her içeriğe kendi sesini verirken iskelet bütünlüğü korur.
+İ Ç İ N D E K İ L E R
+03 FORMATLAR
+04 İSKELET
+05 IZGARA VE KOORDİNATLAR
+06 TİPOGRAFİ
+07 RENK
+08 ORAN VE KOYU TEMA
+09 MODLARA GENEL BAKIŞ
+10-14 MOD KURALLARI
+15 KODLAR, CAROUSEL, REELS
+16 LOGO KULLANIMI
+17 FOTOĞRAF REHBERİ
+18 ÇEKİM LİSTESİ
+19 ŞABLONLAR VE FIGMA
+20-27 ŞABLONLAR
+TEMEL FİKİR
+02 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 3
+TASARIM KILAVUZU v1.0 / SHEET 03
+0 3 / F O R M A T L A R
+1080 × 1440
+Tüm feed postları ve carousel slaytları 3:4 oranında hazırlanır. Instagram profil gridini
+3:4 kutucuklara geçirdi ve 3:4 yüklemeyi destekliyor, bu oran hem akışta hem gridde
+kırpılmadan görünen tek boyut.
+FEED POST
+1080 × 1440 px (3:4)
+CAROUSEL
+1080 × 1440 px. İlk slayt tüm carousel'in oranını belirler, bütün
+slaytlar aynı boyutta olur.
+STORY / REELS
+1080 × 1920 px (9:16). Üstte ve altta arayüz öğeleri için boşluk
+bırakılır.
+REELS KAPAĞI
+1080 × 1440 px, Fotoğraf modunda. Gridin bütünlüğünü korur.
+İSTİSNA
+3:4 postlar şu an reklam olarak öne çıkarılamıyor. Reklama
+dönüşecek bir post olursa o post ayrıca 1080 × 1350 (4:5) olarak
+çıkarılır.
+DIŞA AKTARIM
+PNG veya yüksek kaliteli JPG, 1x, genişlik tam 1080 px.
+FORMATLAR
+03 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 4
+TASARIM KILAVUZU v1.0 / SHEET 04
+0 4 / İ S K E L E T
+İSKELET
+ÇERÇEVE
+Kenardan 40 px içeride, 1,5 px çizgi.
+Üstte ve altta 1-6, yanlarda A-H zon
+işaretleri.
+İÇERİK
+Kenardan 60 px içeride başlar, 960
+px genişlik.
+BAŞLIK SATIRI
+48 px. Solda yatay logo, sağda mod
+etiketi ve post numarası, altında 1
+px çizgi.
+İÇERİK ALANI
+960 × 1104 px. Başlık satırından ve
+antetten 24 px uzakta.
+ANTET ŞERİDİ
+120 px. Fil (1 kolon), başlık (3
+kolon), numara (1 kolon), tarih (1
+kolon).
+İskeletin hiçbir ölçüsü post bazında değiştirilmez. Figma'da çerçeve, başlık satırı ve antet birer
+bileşendir.
+İSKELET
+04 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 5
+TASARIM KILAVUZU v1.0 / SHEET 05
+0 5 / I Z G A R A V E K O O R D İ N A T L A R
+6 × 8
+KOLON
+6 kolon, 140 px genişlik
+SATIR
+8 satır, 117 px yükseklik
+ARALIK
+24 px, yatayda ve dikeyde
+KOORDİNAT
+Harf satırı, rakam kolonu
+gösterir. A1 sol üst hücre, H6
+sağ alt hücre.
+ALAN
+"A1:C6" A-C satırları ve 1-6
+kolonları, yani üst üç satırın
+tamamı.
+Çerçevedeki zon işaretleri süs değil, ızgaranın gerçek koordinatlarıdır. Her öğe (başlık, fotoğraf,
+blok, çizim) ızgara hücrelerinin kenarlarına hizalanır, hücre ortasında yüzmez.
+ÖRNEK: BAŞLIK
+A1:C6
+ÖRNEK: GÖRSEL
+E1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+IZGARA
+05 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 6
+TASARIM KILAVUZU v1.0 / SHEET 06
+0 6 / T İ P O G R A F İ
+D1 DEV BAŞLIK
+Archivo, 230-330 px ARCC
+D2 SLOGAN
+Archivo Condensed,
+120-190 px
+BUILD WITH US.
+D1 VERİ
+Archivo Expanded
+Italic
+25 M/S
+D3 ARA BAŞLIK
+Archivo, 64-84 px FIRST DRIVE
+CÜMLE
+Plex Sans, 30-64 px thank you, [sponsor].
+ÜST ETİKET
+Plex Mono, 20-24 px
+N E X T S T O P / F I G . 1
+VERİ / LİSTE
+Plex Mono, 18-22 px
+IRS-DWG-001 / APPLY BY 15.10
+TEKNİK DETAY
+Plex Mono, 11-14 px
+A1 / A6 / TITLE / NO. / DATE
+01
+Bir postta en fazla iki başlık seviyesi kullanılır.
+02
+Dev başlık ızgarada tam 2 veya 3 satır kaplar.
+03
+Okunması gereken her bilgi en az 20 px olur. Telefonda post yaklaşık üçte bir boyutta görünür.
+04
+Archivo ve Plex Mono büyük harf, Plex Sans cümleleri küçük harf. Türkçe başlıklarda İ harfi elle
+yazılır.
+TİPOGRAFİ
+06 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 7
+TASARIM KILAVUZU v1.0 / SHEET 07
+0 7 / R E N K
+KAĞIT / #EEF2F7
+Tüm postların zemini.
+MÜREKKEP / #071931
+Metin, çizgi, çerçeve, antet. Saf siyah kullanılmaz. Kağıt üzerinde kontrast 15,7:1.
+STEEL BLUE / #2B598A
+Birincil vurgu: bir kelime, bir kare, bir blok. Kağıt üzerinde 6,4:1, her boyutta metin olabilir.
+SKY BLUE / #6AA8DB
+Sadece çizgi ve şekil. Kağıt üzerinde 2,3:1, metin olarak kullanılmaz. Koyu zeminde metin
+olabilir (6,9:1).
+NAVY / #113262
+Koyu dolgu alanları, fotoğraf üzerindeki balonların içi.
+ICE / #E3EEF8
+Koyu zemin ve fotoğraf üzerindeki yazı ve çizgiler.
+SİNYAL / #E4572E
+Aciliyet: son başvuru, FINAL, LIVE. Kağıt üzerinde 3,3:1, sadece 24 px ve üstü kalın yazıda.
+Postta en fazla bir öğe.
+BEYAZ / #FFFFFF
+Sadece sponsor logo paneli.
+RENK
+07 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 8
+TASARIM KILAVUZU v1.0 / SHEET 08
+0 8 / O R A N V E K O Y U T E M A
+70 / 20 / 10
+Kabaca yüzde 70 zemin, yüzde 20 mürekkep, yüzde 10 vurgu. Vurgu rengi bir postu
+kaplamaya başladıysa kural bozulmuş demektir. Sinyal turuncusu bu hesabın dışındadır
+ve postta en fazla bir öğede görünür.
+KOYU TEMA
+Sadece özel anlarda: maç günü, final, büyük sonuç duyuruları. İskelet ve fontlar
+değişmez, sadece roller yer değiştirir.
+ZEMİN
+Mürekkep #071931
+METİN VE ÇİZGİ
+Ice #E3EEF8
+BİRİNCİL VURGU
+Sky Blue #6AA8DB
+SİNYAL
+Aynı kalır, #E4572E
+LOGO
+Koyu zemine uygun açık logo versiyonu gelene kadar başlık satırında takım
+adı yazı olarak kullanılır.
+ORAN VE KOYU TEMA
+08 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 9
+TASARIM KILAVUZU v1.0 / SHEET 09
+0 9 / M O D L A R A G E N E L B A K I Ş
+5 MOD
+Başlık satırındaki küçük kare postun modunu gösterir. Takipçi fark etmese bile ekip
+içinde hangi şablonun kullanıldığı buradan anlaşılır.
+DRAWING / ÇİZİM
+DWG
+Duyuru, teknik tanıtım, robot anatomisi
+SLOGAN
+TEM, REC
+Takım, üye alımı, motivasyon
+DATA / VERİ
+TST, MTC
+Test sonuçları, maç skorları
+PHOTO / FOTOĞRAF
+PHO, EVT
+Atölye, robot, etkinlik
+PARTNER / SPONSOR
+SPN
+Sponsor duyuruları
+Kural: bir post tek bir moda aittir. İki modun öğeleri (örneğin grafik ve slogan blokları) aynı postta
+karışmaz.
+MODLAR
+09 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 10
+TASARIM KILAVUZU v1.0 / SHEET 10
+1 0 / M O D K U R A L L A R I
+ÇİZİM
+KULLANIM
+DWG: duyurular, teknik tanıtımlar, robot anatomisi.
+SABİT
+Çizimler sadece çizgi, dolgu yok. Ana çizgi 2 px, yardımcı 1 px. Her çizimin altında "FIG. n /
+açıklama". Parça numaraları daire içinde balon.
+SERBEST
+Çizimin türü (şema, yan görünüş, patlatılmış görünüş), başlığın 2 veya 3 satır olması.
+YASAK
+Fotoğraf.
+BAŞLIK BLOĞU
+A1:C6
+ALT BAŞLIK
+D1:D6
+ÇİZİM ALANI
+E1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+ÇİZİM MODU
+10 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 11
+TASARIM KILAVUZU v1.0 / SHEET 11
+1 1 / M O D K U R A L L A R I
+SLOGAN
+KULLANIM
+TEM: takım. REC: üye alımı. Motivasyon postları.
+VARYANT 1
+Fotoğraflı: fotoğraf A1:D6, başlık E1:G6, alt takım blokları H1:H6.
+VARYANT 2
+Fotoğrafsız: giriş cümlesi ve başlık A1:E6, bloklar G1:G6, başvuru bilgisi H1:H6.
+SABİT
+Başlığın son satırı veya son kelimesi Steel Blue. Bloklar Steel Blue dolgu, Ice yazı.
+YASAK
+Teknik çizim ve grafik.
+FOTOĞRAF
+A1:D6
+DAR BAŞLIK
+E1:G6
+BLOKLAR
+H1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+SLOGAN MODU
+11 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 12
+TASARIM KILAVUZU v1.0 / SHEET 12
+1 2 / M O D K U R A L L A R I
+VERİ
+KULLANIM
+TST: test sonuçları. MTC: maç skorları ve istatistikler.
+SABİT
+Her sayının birimi yanında (M/S, MM, RPM). Grafiklerde eksen ve "FIG." etiketi. Limit ve hedef
+çizgileri sinyal turuncusu, grafik çizgisi Steel Blue.
+ÖNEMLİ
+Gerçek veri yoksa bu mod kullanılmaz. Uydurma veya göz kararı sayı yok.
+YASAK
+Slogan blokları, fotoğraf.
+DEV SAYI
+A1:C6
+GRAFİK / TABLO
+D1:G6
+VERİ SATIRI
+H1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+VERİ MODU
+12 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 13
+TASARIM KILAVUZU v1.0 / SHEET 13
+1 3 / M O D K U R A L L A R I
+FOTOĞRAF
+KULLANIM
+PHO: atölye, robot. EVT: etkinlik.
+VARYANT 1
+Tam: fotoğraf A1:H6, varsa başlık fotoğrafın karanlık bölgesinde.
+VARYANT 2
+Başlıklı: fotoğraf A1:F6, ara başlık G1:H6.
+SABİT
+Fotoğraf kenarları ızgaraya hizalı. En fazla 2 teknik not (balon), notlar Ice, balon içi Navy.
+SERBEST
+Varyant seçimi fotoğrafa göre yapılır.
+FOTOĞRAF
+A1:F6
+ARA BAŞLIK
+G1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+FOTOĞRAF MODU
+13 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 14
+TASARIM KILAVUZU v1.0 / SHEET 14
+1 4 / M O D K U R A L L A R I
+SPONSOR
+KULLANIM
+SPN: sponsor duyuruları.
+SABİT
+Logo beyaz panelin ortasında, panel genişliğinin en fazla yüzde 60'ı. Sponsor logosu her
+zaman kendi renkleriyle.
+VERİ SATIRI
+Sponsor adı, katkısı, başlangıç yılı. Kademe varsa üst etikette yazılır.
+YASAK
+Bizim grafik öğelerimiz (çizim, blok, grafik). Sponsorun kimliği öne çıkar.
+ÜST ETİKET
+A1:A6
+LOGO PANELİ
+B1:E6
+TEŞEKKÜR
+F1:F6
+VERİ SATIRI
+H1:H6
+1
+2
+3
+4
+5
+6
+A
+B
+C
+D
+E
+F
+G
+H
+SPONSOR MODU
+14 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 15
+TASARIM KILAVUZU v1.0 / SHEET 15
+1 5 / K O D L A R , C A R O U S E L , R E E L S
+IRS-KOD-NNN
+Her post pafta numarası gibi kodlanır. Numara her kodda ayrı ilerler: ilk sponsor postu
+IRS-SPN-001, ilk takım postu IRS-TEM-001.
+DWG
+Teknik ve duyuru
+TEM
+Takım tanıtımı
+REC
+Üye alımı
+PHO
+Fotoğraf, atölye, robot
+EVT
+Etkinlik
+TST
+Test sonucu
+MTC
+Maç
+SPN
+Sponsor
+FUN
+Espri ve topluluk
+VID
+Video, Reels
+REV
+Yayınlanmış bir post düzeltilip yeniden paylaşılırsa antette "REV B" yazılır.
+CAROUSEL
+İlk slayt modun kapağıdır. İç slaytlar aynı iskeleti kullanır, antetteki tarih hücresinde
+"SHEET 2/5" yazar.
+REELS
+Kapak 1080 × 1440 Fotoğraf modunda. Video içinde köşede küçük bir etiket: fil ve
+post kodu.
+KODLAR
+15 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 16
+TASARIM KILAVUZU v1.0 / SHEET 16
+1 6 / L O G O K U L L A N I M I
+YATAY LOGO / BAŞLIK SATIRI, 28 PX
+YÜKSEKLİK
+FİL SEMBOLÜ / ANTET, 86 PX GENİŞLİK
+YERLEŞİM
+Yatay logo sadece başlık satırında, fil sembolü sadece antette. Postun içeriğine
+ayrıca logo eklenmez.
+KORUMA ALANI
+Logonun çevresinde en az logo yüksekliğinin yarısı kadar boşluk.
+YASAKLAR
+Renklerini değiştirmek, orantısız germek, döndürmek, gölge veya efekt
+eklemek, fotoğrafın karışık bir bölgesine koymak.
+EKSİK
+Koyu zemin için beyaz yazılı ve açık konturlu logo versiyonu gerekiyor. Logoyu
+tasarlayan kişiden istenmeli.
+LOGO
+16 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 17
+TASARIM KILAVUZU v1.0 / SHEET 17
+1 7 / F O T O Ğ R A F R E H B E R İ
+NASIL ÇEKİLİR
+Tasarım dili ne kadar iyi olursa olsun, fotoğraflar zayıfsa hesap zayıf görünür. Rakip
+takımların en iyi postları dramatik robot fotoğraflarına dayanıyor.
+IŞIK
+Robot fotoğraflarında karanlık ortam ve robotun LED'leri açık. İnsan
+fotoğraflarında pencere kenarı gün ışığı. Flaş kullanılmaz.
+AÇI
+Robot seviyesinde alçak açı veya 3/4 açı. Üstten çekim sadece şema tarzı içerikte.
+ARKA PLAN
+Sade ve toplu. Atölye dağınıksa arka plan bulanıklaştırılır veya kadraj daraltılır.
+KADRAJ
+Dikey ve 3:4 çekilir. Başlık gelecekse fotoğrafın üst veya alt kısmında karanlık, boş
+bir alan bırakılır.
+TEKNİK
+Telefonun ana kamerası (1x). Düzenlemede sadece pozlama, kontrast ve beyaz
+dengesi. Filtre yok.
+İNSANLAR
+Poz vermeyen, iş başında. Fotoğrafı paylaşılacak herkesin onayı alınır.
+FOTOĞRAF REHBERİ
+17 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 18
+TASARIM KILAVUZU v1.0 / SHEET 18
+1 8 / İ L K A Y L A R İ Ç İ N Ç E K İ M L İ S T E S İ
+ÇEKİLECEKLER
+01
+Ekip toplu fotoğrafı, atölyede veya robotla
+TEM
+02
+Her alt takımın kendi fotoğrafı (4 kare)
+TEM
+03
+Kaptanların portreleri, iş başında
+TEM
+04
+Atölyenin genel görünümü
+PHO / EVT
+05
+Robot yakın planları: gimbal, fırlatıcı, Mecanum teker, zırh
+PHO
+06
+Üretim anları: 3D yazıcı, kesim, montaj yapan eller
+PHO
+07
+CAD ekran görüntüleri, çizim modu için kaynak
+DWG
+08
+İlk sürüş ve testler, video ile birlikte kareler
+PHO / TST / VID
+09
+Tanıtım günü, stant, etkinlikler
+EVT
+10
+Sponsor ürünleriyle çalışırken
+SPN
+ÇEKİM LİSTESİ
+18 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 19
+TASARIM KILAVUZU v1.0 / SHEET 19
+1 9 / Ş A B L O N L A R V E F I G M A
+8 ŞABLON
+Şablonlar SVG olarak teslim edilir. Figma'ya sürükleyip bırakıldığında düzenlenebilir katmanlara
+dönüşür. Katmanlar: BG, GRID-GUIDE, CONTENT, IRS-FRAME, IRS-HEADER, IRS-STRIP.
+01
+Fontlar Figma'da hazır: Archivo, IBM Plex Mono, IBM Plex Sans (Google Fonts).
+02
+SVG'yi içe aktardıktan sonra başlıkları kontrol et: Archivo'nun genişliği (Width ekseni) aktarımda
+kaybolabilir. Çizim ve Veri modunda 125, Slogan modunda 62 olarak ayarla.
+03
+IRS-FRAME, IRS-HEADER ve IRS-STRIP katmanlarını bir kez bileşen (component) yap, bütün
+şablonlarda bunların kopyasını (instance) kullan.
+04
+GRID-GUIDE yerine Figma layout grid kur: 6 kolon, 140 px, 24 px aralık, kenar 60 px. 8 satır, 117
+px, 24 px aralık, üstten 132 px.
+05
+Yer tutucuları ([BAŞLIK], [TARİH], [FOTOĞRAF]) gerçek içerikle değiştir, köşeli parantezli hiçbir
+metin yayına çıkmaz.
+06
+Dışa aktarım: PNG, 1x, 1080 × 1440. GRID-GUIDE katmanı gizli olmalı.
+ŞABLONLAR VE FIGMA
+19 / 27
+v1.0
+S E C T I O N
+S H E E T
+R E V
+
+=== 20
+[ Ü S T E T İ K E T ]
+[BAŞLIK]
+[ A L T B A Ş L I K / A Ç I K L A M A ]
+Ç İ Z İ M A L A N I / F I G . 1
+F I G . 1 / [ A Ç I K L A M A ]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-DWG-000
+MODE / DRAWING
+T I T L E
+[BAŞLIK]
+N O .
+IRS-DWG-000
+D A T E
+[TARİH]
+
+=== 21
+[ E K İ P / R O B O T F O T O Ğ R A F I ]
+alttan çekim, ekip robotun etrafında
+[SLOGAN SATIR 1]
+[SATIR 2]
+UNIT 01 / OPEN
+[BİRİM 1]
+UNIT 02 / OPEN
+[BİRİM 2]
+UNIT 03 / OPEN
+[BİRİM 3]
+UNIT 04 / OPEN
+[BİRİM 4]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-TEM-000
+MODE / SLOGAN
+T I T L E
+[BAŞLIK]
+N O .
+IRS-TEM-000
+D A T E
+[TARİH]
+
+=== 22
+[giriş cümlesi, küçük harf.]
+[SATIR 1]
+[SATIR 2]
+UNIT 01 / OPEN
+[BİRİM 1]
+UNIT 02 / OPEN
+[BİRİM 2]
+UNIT 03 / OPEN
+[BİRİM 3]
+UNIT 04 / OPEN
+[BİRİM 4]
+[SON BAŞVURU / TARİH]
+LINK IN BIO
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-REC-000
+MODE / SLOGAN
+T I T L E
+[BAŞLIK]
+N O .
+IRS-REC-000
+D A T E
+[TARİH]
+
+=== 23
+[ Ö L Ç Ü L E N Ş E Y / B A Ğ L A M ]
+[00]
+[BİRİM]
+F I G . 1 / [ G R A F İ K A D I ]
+[ L İ M İ T / H E D E F ]
+[BİRİM] →
+[ E T İ K E T ]
+[DEĞER]
+[ E T İ K E T ]
+[DEĞER]
+[ E T İ K E T ]
+[DEĞER]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-TST-000
+MODE / DATA
+T I T L E
+[BAŞLIK]
+N O .
+IRS-TST-000
+D A T E
+[TARİH]
+
+=== 24
+[ F O T O Ğ R A F ]
+karanlık ortam, LED açık, alçak açı
+1
+[NOT]
+2
+[NOT]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-PHO-000
+MODE / PHOTO
+T I T L E
+[BAŞLIK]
+N O .
+IRS-PHO-000
+D A T E
+[TARİH]
+
+=== 25
+[ F O T O Ğ R A F ]
+etkinlik, stant, atölye
+[ARA BAŞLIK]
+[ Y E R ]
+[ T A R İ H ]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-EVT-000
+MODE / PHOTO
+T I T L E
+[BAŞLIK]
+N O .
+IRS-EVT-000
+D A T E
+[TARİH]
+
+=== 26
+O F F I C I A L P A R T N E R / [ T I E R ]
+[ S P O N S O R L O G O S U , E N F A Z L A % 6 0 G E N İ Ş L İ K ]
+thank you, [sponsor].
+S U P P L I E R
+[SPONSOR ADI]
+C O N T R I B U T I O N
+[DESTEK]
+S I N C E
+[YIL]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+IRS-SPN-000
+MODE / PARTNER
+T I T L E
+THANK YOU, [SPONSOR]
+N O .
+IRS-SPN-000
+D A T E
+[TARİH]
+
+=== 27
+A R C C / [ F O R M A T ] / M A T C H [ N O ]
+● F I N A L
+I R S
+[X] :
+[ R A K İ P ]
+[Y]
+[ ]
+[İSTATİSTİK 1]
+[ ]
+[ ]
+[İSTATİSTİK 2]
+[ ]
+[ ]
+[İSTATİSTİK 3]
+[ ]
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+A
+A
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+I Z T E C H R O B O T I C S Y S T E M S
+IRS-MTC-000
+MODE / DATA
+T I T L E
+[MAÇ] RESULT
+N O .
+IRS-MTC-000
+D A T E
+[TARİH]
+

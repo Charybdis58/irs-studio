@@ -1,0 +1,51 @@
+# irs-studio
+
+IZTECH Robotic Systems'ın görsel üretim paketi: Instagram postları ve carousel'leri, feed ve Reels
+videoları, anlatım animasyonları, sunumlar. Hepsi IRS-GDL-001 Rev C pafta dilinde, hepsi bir JSON
+tariften tek komutla üretilir.
+
+- Geçerli sistem ve kararlar: [`marka/MARKA.md`](marka/MARKA.md)
+- Tarif biçimleri ve komutlar: [`icerik/OKU-BENI.md`](icerik/OKU-BENI.md)
+- Claude ile kullanım: `irs-studio` skill'i (`~/.claude/skills/irs-studio/`). "Bir duyuru postu yap",
+  "bunu Reels'e çevir", "jüri sunumu hazırla" demek yeterli.
+
+## Kurulum
+
+Node 22+ ve FFmpeg gerekir (`winget install Gyan.FFmpeg`).
+
+```bash
+npm install
+```
+
+İlk render Remotion'ın başsız Chrome'unu bir kez indirir. Sunumlar sistemdeki Chrome ya da Edge ile basılır.
+
+## Yapı
+
+```
+marka/        logolar, fontlar (altyazı için TTF), Rev C özeti (kaynak/), eski kılavuzlar (arsiv/), MARKA.md
+src/          Remotion: pafta iskeleti (pafta/), post şablonları (post/), video (video/)
+sunum/        sunum paftası (pafta.css, IRS-GDL-001 Rev C)
+araclar/      uret (post/video), sunum, kareler (video denetimi), ff (FFmpeg kısayolları), woff-ttf
+icerik/       tarifler (JSON); _ ile başlayanlar örnek
+public/girdi/ fotoğraf, çizim, müzik gibi girdiler
+cikti/        üretilenler (depoya girmez)
+```
+
+## Komutlar
+
+| Komut                                   | Ne yapar                                              |
+| --------------------------------------- | ----------------------------------------------------- |
+| `npm run uret -- icerik/x.json`         | Post, carousel ya da video üretir (`--taslak`)         |
+| `npm run sunum -- icerik/x.json --png`  | Sunumu PDF'e basar, slaytları PNG verir                |
+| `npm run kareler -- video.mp4 1`        | Videodan saniyede bir karelik temas sayfası            |
+| `npm run ff -- <iş> ...`                | kes, birlestir, olcekle, altyazi, ses, sessiz, sikistir, gif, kapak |
+| `npm run studio`                        | Remotion Studio'da canlı önizleme ve ince ayar          |
+| `npm run tip`                           | TypeScript denetimi                                    |
+
+## Kurallar (kısa)
+
+- Bilgi uydurulmaz: rakam, tarih, sponsor, ölçü bilinmiyorsa `[TARİH]` gibi yer tutucu; yer tutuculu
+  tarif `--taslak` olmadan üretilmez.
+- Yapay zekâ görseli gerçek robot ya da ekip fotoğrafı yerine kullanılmaz.
+- Uzun tire (—) kullanılmaz. Logo çizilmez, yeniden renklendirilmez.
+- Remotion bireysel kullanımda ücretsiz; topluluk adına 3 kişiden büyük bir şirket kullanacaksa lisans gerekir.

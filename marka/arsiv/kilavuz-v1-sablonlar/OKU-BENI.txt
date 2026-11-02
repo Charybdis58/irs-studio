@@ -1,0 +1,19 @@
+IRS / INSTAGRAM ŞABLONLARI v1.0 (1080 x 1440, 3:4)
+
+01-Cizim ............... DWG: duyuru, teknik tanıtım, anatomi
+02-Slogan-Fotografli ... TEM: takım tanıtımı
+03-Slogan-Fotografsiz .. REC: üye alımı, motivasyon
+04-Veri ................ TST: test sonucu, performans
+05-Fotograf-Tam ........ PHO: atölye, robot
+06-Fotograf-Baslikli ... EVT: etkinlik
+07-Sponsor ............. SPN: sponsor duyurusu
+08-Koyu-Mac ............ MTC: maç günü ve sonuç (koyu tema)
+
+Figma'ya aktarma:
+1. SVG dosyasını Figma'ya sürükle bırak.
+2. Katmanlar: BG, GRID-GUIDE, CONTENT, IRS-FRAME, IRS-HEADER, IRS-STRIP.
+3. Başlıklarda Archivo genişliğini kontrol et (Width: Çizim ve Veri 125, Slogan 62).
+4. IRS-FRAME, IRS-HEADER, IRS-STRIP katmanlarını bileşen yap.
+5. Dışa aktarmadan önce GRID-GUIDE katmanını gizle. PNG, 1x, 1080 x 1440.
+
+Tüm kurallar: IRS-Tasarim-Kilavuzu-v1.pdf

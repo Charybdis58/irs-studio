@@ -1,0 +1,202 @@
+{
+  "tur": "video",
+  "format": "9:16",
+  "sablon": "Post",
+  "sure": 10,
+  "icerik": {
+    "kod": "IRS-SOC-000",
+    "baslik": "Infantry alt sistemleri",
+    "tarih": "02.11.2026",
+    "seri": "Robot anatomisi",
+    "etiket": "Robot anatomisi / Örnek",
+    "satirlar": [
+      "Infantry",
+      "alt sistemleri"
+    ],
+    "kapak": true,
+    "fig": "Infantry / blok şema / ölçeksiz",
+    "diyagram": {
+      "ogeler": [
+        {
+          "tip": "kutu",
+          "x": 301,
+          "y": 66,
+          "w": 274,
+          "h": 98
+        },
+        {
+          "tip": "yazi",
+          "konum": [
+            438,
+            121
+          ],
+          "metin": "Gimbal",
+          "hiza": "middle"
+        },
+        {
+          "tip": "ok",
+          "noktalar": [
+            [
+              438,
+              164
+            ],
+            [
+              438,
+              246
+            ]
+          ]
+        },
+        {
+          "tip": "kutu",
+          "x": 301,
+          "y": 246,
+          "w": 274,
+          "h": 98
+        },
+        {
+          "tip": "yazi",
+          "konum": [
+            438,
+            302
+          ],
+          "metin": "Fırlatıcı",
+          "hiza": "middle"
+        },
+        {
+          "tip": "kutu",
+          "x": 36,
+          "y": 459,
+          "w": 274,
+          "h": 98,
+          "an": 2.4
+        },
+        {
+          "tip": "yazi",
+          "konum": [
+            173,
+            515
+          ],
+          "metin": "Kontrol kartı",
+          "hiza": "middle",
+          "an": 2.6
+        },
+        {
+          "tip": "ok",
+          "noktalar": [
+            [
+              173,
+              459
+            ],
+            [
+              173,
+              115
+            ],
+            [
+              301,
+              115
+            ]
+          ],
+          "an": 3.0,
+          "sure": 1.2
+        },
+        {
+          "tip": "kutu",
+          "x": 566,
+          "y": 459,
+          "w": 274,
+          "h": 98,
+          "an": 3.6
+        },
+        {
+          "tip": "yazi",
+          "konum": [
+            703,
+            515
+          ],
+          "metin": "Şasi",
+          "hiza": "middle",
+          "an": 3.8
+        },
+        {
+          "tip": "ok",
+          "noktalar": [
+            [
+              310,
+              509
+            ],
+            [
+              566,
+              509
+            ]
+          ],
+          "an": 4.2
+        },
+        {
+          "tip": "daire",
+          "merkez": [
+            630,
+            648
+          ],
+          "r": 46,
+          "an": 4.8,
+          "ince": true
+        },
+        {
+          "tip": "daire",
+          "merkez": [
+            776,
+            648
+          ],
+          "r": 46,
+          "an": 5.0,
+          "ince": true
+        },
+        {
+          "tip": "cizgi",
+          "noktalar": [
+            [
+              584,
+              706
+            ],
+            [
+              821,
+              706
+            ]
+          ],
+          "an": 5.2,
+          "kesik": true,
+          "ince": true
+        },
+        {
+          "tip": "balon",
+          "nokta": [
+            630,
+            648
+          ],
+          "balon": [
+            511,
+            738
+          ],
+          "numara": 1,
+          "metin": "Mecanum teker",
+          "an": 5.8
+        },
+        {
+          "tip": "balon",
+          "nokta": [
+            575,
+            90
+          ],
+          "balon": [
+            712,
+            33
+          ],
+          "numara": 2,
+          "metin": "İki eksen",
+          "an": 6.3,
+          "vurgu": true
+        }
+      ]
+    }
+  }
+}

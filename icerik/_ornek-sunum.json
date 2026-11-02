@@ -1,0 +1,47 @@
+{
+  "tur": "sunum",
+  "kod": "IRS-PRE-000",
+  "rev": "A",
+  "tarih": "[TARİH]",
+  "seri": "Örnek sunum",
+  "sayfalar": [
+    {
+      "tip": "kapak",
+      "etiket": "IRS-PRE-000 / Örnek",
+      "baslik": "Sunum şablonu",
+      "govde": "Her slayt tek fikir. Başlık üstte, görsel ortada, açıklama ve FIG. altta.",
+      "antet": "Kapak"
+    },
+    {
+      "tip": "gorsel",
+      "bolum": "01 / Robot",
+      "etiket": "A-01 / Sistem",
+      "baslik": "Infantry alt sistemleri",
+      "gorsel": "cikti/_ornek-anlatim/onizleme.png",
+      "fig": "Blok şema / ölçeksiz"
+    },
+    {
+      "tip": "maddeler",
+      "bolum": "02 / Plan",
+      "baslik": "Sonraki adımlar",
+      "maddeler": ["Şasi ve Mecanum teker testi", "Gimbal kontrolcüsünün ayarı", "Fırlatıcı için [TARİH] hedefi"]
+    },
+    {
+      "tip": "sayilar",
+      "bolum": "03 / Ekip",
+      "baslik": "Ekip",
+      "sayilar": [
+        { "deger": "[N]", "birim": "üye", "ne": "Aktif üye" },
+        { "deger": "4", "birim": "ekip", "ne": "Alt ekip" }
+      ],
+      "kaynak": "IRS üye listesi"
+    },
+    {
+      "tip": "kapanis",
+      "bolum": "04 / İletişim",
+      "baslik": "Birlikte üretelim",
+      "govde": "iztechroboticsystems@gmail.com",
+      "cagri": "iztechroboticsystems.com"
+    }
+  ]
+}

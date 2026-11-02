@@ -1,0 +1,31 @@
+{
+  "name": "irs-studio",
+  "private": true,
+  "description": "IRS tasarım paketi: Instagram postları, videolar, sunumlar (pafta görsel dili)",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "uret": "node araclar/uret.mjs",
+    "kareler": "node araclar/kareler.mjs",
+    "ff": "node araclar/ff.mjs",
+    "sunum": "node araclar/sunum.mjs",
+    "tip": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/barlow": "5.3.0",
+    "@fontsource/barlow-condensed": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@remotion/cli": "4.0.536",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.18",
+    "typescript": "5.9.3"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "@ibm/plex-sans": false
+  }
+}
